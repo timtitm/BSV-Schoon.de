@@ -1,0 +1,87 @@
+body{
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+}
+main {
+    flex: 1 0 auto;
+}
+
+h1, h2, h3 {
+    /*font-family: 'Bitter', serif;*/
+}
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1em;
+    text-align: left;
+}
+
+
+ol {
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ol li {
+    padding-top: 1em;
+}
+
+ul {
+    text-align: left;
+
+}
+
+a{
+    color:#f57c00;
+}
+
+
+.collapsible-body p {
+    padding: 1em;
+}
+
+#logo {
+    margin-top: 0;
+    position: relative;
+    max-width: 90vw;
+    width:400px;
+    top: -8vh;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header.row{
+    margin-bottom: -8vh;
+}
+
+#coverImage{
+    background: url("../img/cover.jpg") no-repeat scroll center center;
+    background-size: cover;
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    height:20vh;
+    margin: 0 0 0 0;
+}
